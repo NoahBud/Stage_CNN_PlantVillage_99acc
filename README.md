@@ -1,4 +1,4 @@
-# 🌱 Stage_CNN_PlantVillage_99acc
+# 🌱 DeepLearning Internship
 
 Ce projet a été réalisé dans le cadre de mon stage de 2ᵉ année de licence informatique.  
 L'objectif principal était de concevoir, entraîner et affiner un **modèle de réseau de neurones convolutif (CNN)** capable de **reconnaître les maladies des plantes** à partir d’images issues du dataset **PlantVillage**.
