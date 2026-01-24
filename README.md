@@ -1,6 +1,6 @@
 # DeepLearning Internship
 
-Ce projet a été réalisé dans le cadre de mon stage de 2ᵉ année de licence informatique.  
+Ce projet a été réalisé dans le cadre de mon stage de 2ᵉ année de licence informatique, au LICIIS (Laboratoire d'Informatique en Calcul Intensif et Image pour la Simulation) à Reims.  
 L'objectif principal était de concevoir, entraîner et optimiser un modèle de réseau de neurones convolutif (CNN) capable de reconnaître les différentes plantes et, si présentes, leurs maladies à partir d’images issues du dataset PlantVillage.
 
 ## Stack technique :
