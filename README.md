@@ -1,69 +1,39 @@
-# 🌱 DeepLearning Internship
+# DeepLearning Internship
 
 Ce projet a été réalisé dans le cadre de mon stage de 2ᵉ année de licence informatique.  
-L'objectif principal était de concevoir, entraîner et affiner un **modèle de réseau de neurones convolutif (CNN)** capable de **reconnaître les maladies des plantes** à partir d’images issues du dataset **PlantVillage**.
+L'objectif principal était de concevoir, entraîner et optimiser un modèle de réseau de neurones convolutif (CNN) capable de reconnaître les différentes plantes et, si présentes, leurs maladies à partir d’images issues du dataset PlantVillage.
 
----
+## Stack technique :
+- Language : Python 3.13
+- Framework : PyTorch
+- Bibliothèques : Torchvision, NumPy, Matplotlib
+- Dataset : Kaggle
 
-## 🎯 Objectifs
-
+## Tâches réalisés :
 - Prétraiter et explorer les données du dataset PlantVillage.
-- Concevoir plusieurs architectures CNN de complexité croissante.
-- Implémenter des techniques d'**augmentation de données** pour améliorer la robustesse du modèle.
-- Atteindre une **précision supérieure à 99%** sur les données de validation.
-- Étudier les performances de chaque version (simple CNN, deep CNN, batch normalization…).
+- Concevoir plusieurs architectures CNN plus ou moins profondes.
+- Implémenter des techniques de data augmentation pour améliorer la robustesse du modèle.
+- Atteindre une précision supérieure à 99% sur les données de validation/test.
+- Étudier les performances de chaque version (simple CNN, deep CNN, avec ou sans batch normalization…).
 
----
+## Ressources :
 
-## 🧠 Apprentissage & Méthodologie
+- Auto-formation avec des ressources (cours en ligne, articles, documentations PyTorch).
+- Rendez-vous régulier par mon tuteur de stage pour valider mes choix techniques.
+- Nombreux essais/erreurs sur l’architecture, le prétraitement et le sur-apprentissage.
+- Utilisation de Google Colab et PyCharm pour l'entraînement des modèles et la visualisation des résultats
 
-- 🔹 **Auto-formation** via ressources (cours en ligne, articles, documentations PyTorch).
-- 🔹 **Encadrement régulier** par mon tuteur de stage pour valider mes choix techniques.
-- 🔹 Nombreux essais/erreurs sur l’architecture, le prétraitement et le sur-apprentissage.
-- 🔹 Utilisation de **Google Colab** et **PyCharm** pour l'entraînement des modèles et la visualisation des résultats.
+## Quelques liens vers mes travaux : 
 
----
+- Notebooks d'expérimentation et d'entraînement :  
+   [Notebooks](https://drive.google.com/drive/folders/1va3uwjT-qCHGCeu_LIWKai9FHW19VCx7)
 
-## 📁 Ressources disponibles
+- Modèles entraînés (.pth) :  
+  [Télécharger les modèles](https://drive.google.com/drive/folders/1qdRDtb93IjDKse_SsNtGvHmpAEywdt0C?usp=sharing)  
+  (Ces fichiers sont également présents dans ce dépôt, via git LFS)
 
-- 📓 **Notebooks d'expérimentation et d'entraînement** :  
-  👉 [Accéder aux notebooks](https://drive.google.com/drive/folders/1va3uwjT-qCHGCeu_LIWKai9FHW19VCx7)
+## Résultats
 
-- 🧠 **Modèles entraînés (.pth)** :  
-  👉 [Télécharger les modèles](https://drive.google.com/drive/folders/1qdRDtb93IjDKse_SsNtGvHmpAEywdt0C?usp=sharing)  
-  > 💡 Ces fichiers sont également présents dans ce dépôt (via Git LFS).
-
----
-
-## 🛠️ Technologies utilisées
-
-- **Langage** : Python 3
-- **Frameworks** : PyTorch, Torchvision, NumPy, Matplotlib
-- **Environnement** : Google Colab
-- **Dataset** : [PlantVillage (Kaggle)](https://www.kaggle.com/datasets/emmarex/plantdisease)
-
----
-
-## 📊 Résultats
-
-- Précision finale sur validation : **> 99%**
+- Précision finale sur validation : >99%
 - Plusieurs variantes testées (nombres de couches, batch norm, régularisation, etc.)
 - Visualisation des performances avec courbes d’apprentissage et matrices de confusion
-
----
-
-## 📌 Remarques
-
-- Le poids de certains modèles dépasse 70 Mo, d'où l'utilisation de **Git LFS**.
-- Pour reproduire l'entraînement, voir les notebooks Colab ci-dessus.
-- Le code est organisé pour faciliter les tests de nouvelles architectures.
-
----
-
-## 🤝 Contact
-
-Une question ou une suggestion ? N’hésite pas à me contacter via [mon profil GitHub](https://github.com/NoahBud).
-
----
-
-Merci d’avoir consulté ce projet 🌿
